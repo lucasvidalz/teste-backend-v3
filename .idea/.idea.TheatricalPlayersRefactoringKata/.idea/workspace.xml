@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3962d9a7-f65c-4843-9dbd-bbe32835b412" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Invoice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Invoice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Performance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Performance.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Play.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Play.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/StatementPrinter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/StatementPrinter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/StatementPrinterTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/StatementPrinterTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/TheatricalPlayersRefactoringKata.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/TheatricalPlayersRefactoringKata.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata/Invoice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Invoice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata/Performance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Performance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata/Play.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Play.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata/StatementPrinter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/StatementPrinter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata/TheatricalPlayersRefactoringKata.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/TheatricalPlayersRefactoringKata.Domain.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743123402486</updated>
-      <workItem from="1743123406055" duration="385000" />
+      <workItem from="1743123406055" duration="872000" />
     </task>
     <servers />
   </component>

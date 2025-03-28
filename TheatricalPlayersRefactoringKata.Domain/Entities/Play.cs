@@ -1,4 +1,4 @@
-namespace TheatricalPlayersRefactoringKata.Domain;
+namespace TheatricalPlayersRefactoringKata.Domain.Entities;
 
 public class Play
 {

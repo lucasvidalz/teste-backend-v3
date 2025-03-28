@@ -10,9 +10,9 @@ public class StatementPrinter
 {
     public string Print(Invoice invoice, Dictionary<string, Play> plays)
     {
-        var totalAmount = 0;
+        decimal totalAmount = 0;
         var volumeCredits = 0;
-        var result = string.Format("Statement for {0}\n", invoice.Customer);
+        var result = $"Statement for {invoice.Customer}\n";
         CultureInfo cultureInfo = new CultureInfo("en-US");
 
         foreach(var perf in invoice.Performances) 
@@ -31,7 +31,7 @@ public class StatementPrinter
         }
         
         result += string.Format(cultureInfo, "Amount owed is {0:C}\n", totalAmount);
-        result += string.Format("You earned {0} credits\n", volumeCredits);
+        result += $"You earned {volumeCredits} credits\n";
 
         return result;
     }

@@ -5,21 +5,30 @@ using ApprovalTests.Reporters;
 using TheatricalPlayersRefactoringKata.Domain;
 using TheatricalPlayersRefactoringKata.Domain.Entities;
 using TheatricalPlayersRefactoringKata.Domain.Entities.Play;
+using TheatricalPlayersRefactoringKata.Domain.Interfaces;
+using TheatricalPlayersRefactoringKata.Domain.UseCase;
 using Xunit;
 
 namespace TheatricalPlayersRefactoringKata.Tests;
 
 public class StatementPrinterTests
 {
+    private readonly Dictionary<string, IPlayCalculator> _playCalculators = new()
+    {
+        { "tragedy", new TragedyPlay() },
+        { "comedy", new ComedyPlay() },
+        { "historical", new HistoricalPlay() }
+    };
+
     [Fact]
     [UseReporter(typeof(DiffReporter))]
     public void TestStatementExampleLegacy()
     {
         var plays = new Dictionary<string, Play>
         {
-            { "hamlet", new TragedyPlay("Hamlet", 4024) },
-            { "as-like", new ComedyPlay("As You Like It", 2670) },
-            { "othello", new TragedyPlay("Othello", 3560) }
+            { "hamlet", new Play("Hamlet", 4024) { Type = "tragedy" } },
+            { "as-like", new Play("As You Like It", 2670) { Type = "comedy" } },
+            { "othello", new Play("Othello", 3560) { Type = "tragedy" } }
         };
 
         Invoice invoice = new Invoice(
@@ -32,7 +41,7 @@ public class StatementPrinterTests
             }
         );
 
-        StatementPrinter statementPrinter = new StatementPrinter();
+        StatementPrinter statementPrinter = new StatementPrinter(_playCalculators);
         var result = statementPrinter.Print(invoice, plays);
 
         Approvals.Verify(result);
@@ -44,13 +53,14 @@ public class StatementPrinterTests
     {
         var plays = new Dictionary<string, Play>
         {
-            { "hamlet", new TragedyPlay("Hamlet", 4024) },
-            { "as-like", new ComedyPlay("As You Like It", 2670) },
-            { "othello", new TragedyPlay("Othello", 3560) },
-           // plays.Add("henry-v", new Play("Henry V", 3227, "history"));
-           // plays.Add("john", new Play("King John", 2648, "history"));
-           // plays.Add("richard-iii", new Play("Richard III", 3718, "history"));
+            { "hamlet", new Play("Hamlet", 4024) { Type = "tragedy" } },
+            { "as-like", new Play("As You Like It", 2670) { Type = "comedy" } },
+            { "othello", new Play("Othello", 3560) { Type = "tragedy" } },
+            { "henry-v", new Play("Henry V", 3227) { Type = "historical" } },
+            { "john", new Play("King John", 2648) { Type = "historical" } },
+            { "richard-iii", new Play("Richard III", 3718) { Type = "historical" } }
         };
+
         Invoice invoice = new Invoice(
             "BigCo",
             new List<Performance>
@@ -64,7 +74,7 @@ public class StatementPrinterTests
             }
         );
 
-        StatementPrinter statementPrinter = new StatementPrinter();
+        StatementPrinter statementPrinter = new StatementPrinter(_playCalculators);
         var result = statementPrinter.Print(invoice, plays);
 
         Approvals.Verify(result);

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3962d9a7-f65c-4843-9dbd-bbe32835b412" name="Changes" comment="" />
+    <list default="true" id="3962d9a7-f65c-4843-9dbd-bbe32835b412" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Play/ComedyPlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Play/Play.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Play.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Play/TragedyPlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/StatementPrinter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/StatementPrinter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/TheatricalPlayersRefactoringKata.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/TheatricalPlayersRefactoringKata.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Infrastructure/TheatricalPlayersRefactoringKata.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Infrastructure/TheatricalPlayersRefactoringKata.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/StatementPrinterTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/StatementPrinterTests.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743123402486</updated>
-      <workItem from="1743123406055" duration="3355000" />
+      <workItem from="1743123406055" duration="5756000" />
     </task>
     <servers />
   </component>

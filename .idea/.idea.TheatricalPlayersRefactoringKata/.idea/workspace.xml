@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3962d9a7-f65c-4843-9dbd-bbe32835b412" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/StatementPrinterTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/StatementPrinterTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/TheatricalPlayersRefactoringKata.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/TheatricalPlayersRefactoringKata.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata/Invoice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Invoice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata/Performance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Performance.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata/Play.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Play.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata/StatementPrinter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/StatementPrinter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata/TheatricalPlayersRefactoringKata.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/TheatricalPlayersRefactoringKata.Domain.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2uvK2SnEXwiptBLUwggTtD7za7a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "teste/lucas-moura-vidal",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3962d9a7-f65c-4843-9dbd-bbe32835b412" name="Changes" comment="" />
+      <created>1743123402486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743123402486</updated>
+      <workItem from="1743123406055" duration="385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

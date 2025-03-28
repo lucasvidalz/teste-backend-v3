@@ -1,5 +1,6 @@
 
 using Microsoft.Extensions.DependencyInjection;
+using TheatricalPlayersRefactoringKata.Domain;
 using TheatricalPlayersRefactoringKata.Domain.Interfaces;
 using TheatricalPlayersRefactoringKata.Domain.UseCase;
 
@@ -18,6 +19,7 @@ public static class DependencyInjectionConfig
         services.AddTransient<IPlayCalculator, TragedyPlay>(provider => new TragedyPlay());
         services.AddTransient<IPlayCalculator, ComedyPlay>(provider => new ComedyPlay());
         services.AddTransient<IPlayCalculator, HistoricalPlay>(provider => new HistoricalPlay());
+        services.AddTransient<IXmlStatementPrinter, XmlStatementPrinter>();
 
         return services.BuildServiceProvider();
     }

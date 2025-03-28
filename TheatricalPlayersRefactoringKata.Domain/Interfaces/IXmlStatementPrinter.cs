@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using TheatricalPlayersRefactoringKata.Domain.Entities;
-using TheatricalPlayersRefactoringKata.Domain.Entities.Play;
 
 namespace TheatricalPlayersRefactoringKata.Domain.Interfaces;
 

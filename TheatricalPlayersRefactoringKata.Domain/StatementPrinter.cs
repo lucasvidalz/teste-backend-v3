@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Globalization;
 using TheatricalPlayersRefactoringKata.Domain.Entities;
-using TheatricalPlayersRefactoringKata.Domain.Entities.Play;
 using TheatricalPlayersRefactoringKata.Domain.Interfaces;
 
 namespace TheatricalPlayersRefactoringKata.Domain;
@@ -20,7 +19,7 @@ public class StatementPrinter
     {
         decimal totalAmount = 0;
         var volumeCredits = 0;
-        var result = string.Format("Statement for {0}\n", invoice.Customer);
+        var result = $"Statement for {invoice.Customer}\n";
         CultureInfo cultureInfo = new CultureInfo("en-US");
 
         foreach (var perf in invoice.Performances)

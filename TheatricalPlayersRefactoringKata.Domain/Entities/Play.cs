@@ -1,6 +1,6 @@
 using System;
 
-namespace TheatricalPlayersRefactoringKata.Domain.Entities.Play;
+namespace TheatricalPlayersRefactoringKata.Domain.Entities;
 
 public class Play
 {

@@ -5,7 +5,6 @@ using System.Text;
 using System.Xml;
 using System.Xml.Linq;
 using TheatricalPlayersRefactoringKata.Domain.Entities;
-using TheatricalPlayersRefactoringKata.Domain.Entities.Play;
 using TheatricalPlayersRefactoringKata.Domain.Interfaces;
 
 namespace TheatricalPlayersRefactoringKata.Domain;
@@ -56,19 +55,17 @@ public class XmlStatementPrinter : IXmlStatementPrinter
         );
 
         // Solução definitiva para o encoding UTF-8
-        using (var memoryStream = new MemoryStream())
+        using var memoryStream = new MemoryStream();
+        using (var writer = XmlWriter.Create(memoryStream, new XmlWriterSettings
+               {
+                   Encoding = Encoding.UTF8,
+                   Indent = true,
+                   OmitXmlDeclaration = false
+               }))
         {
-            using (var writer = XmlWriter.Create(memoryStream, new XmlWriterSettings
-                   {
-                       Encoding = Encoding.UTF8,
-                       Indent = true,
-                       OmitXmlDeclaration = false
-                   }))
-            {
-                xmlDocument.Save(writer);
-            }
-
-            return Encoding.UTF8.GetString(memoryStream.ToArray());
+            xmlDocument.Save(writer);
         }
+
+        return Encoding.UTF8.GetString(memoryStream.ToArray());
     }
 }

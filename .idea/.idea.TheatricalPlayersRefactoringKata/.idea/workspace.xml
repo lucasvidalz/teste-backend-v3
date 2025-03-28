@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3962d9a7-f65c-4843-9dbd-bbe32835b412" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Invoice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Invoice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Performance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Performance.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Play.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Play.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheatricalPlayersRefactoringKata/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Play.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/Entities/Play/Play.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/StatementPrinter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Domain/StatementPrinter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/StatementPrinterTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheatricalPlayersRefactoringKata.Tests/StatementPrinterTests.cs" afterDir="false" />
     </list>
@@ -49,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743123402486</updated>
-      <workItem from="1743123406055" duration="872000" />
+      <workItem from="1743123406055" duration="2530000" />
     </task>
     <servers />
   </component>
